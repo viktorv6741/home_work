@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="499.99980000000505" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <TextField fx:id="a" alignment="TOP_LEFT" layoutX="159.0" layoutY="81.0" prefWidth="186.0" promptText="Enter Width" />
+    <TextField fx:id="b" alignment="TOP_LEFT" layoutX="159.0" layoutY="117.0" prefWidth="186.0" promptText="Enter Height" />
+    <TextField fx:id="result" alignment="TOP_LEFT" layoutX="159.0" layoutY="155.0" prefWidth="186.0" promptText="Result" />
+    <Button layoutX="160.0" layoutY="205.0" mnemonicParsing="false" onAction="#area" prefWidth="90.0" text="Area" />
+    <Button layoutX="256.0" layoutY="205.0" mnemonicParsing="false" onAction="#perimeter" prefWidth="91.0" text="Perimeter" />
+    <Button layoutX="159.0" layoutY="241.0" mnemonicParsing="false" onAction="#clear" prefWidth="186.00009999999747" text="Clear" textOverrun="ELLIPSIS" />
+  </children>
+</AnchorPane>
